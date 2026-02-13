@@ -1,4 +1,4 @@
-{
+export default {
   "name": "Job",
   "type": "object",
   "properties": {
