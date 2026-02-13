@@ -1,4 +1,4 @@
-{
+export default {
   "name": "Booking",
   "type": "object",
   "properties": {
