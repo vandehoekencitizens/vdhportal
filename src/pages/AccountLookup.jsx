@@ -17,7 +17,7 @@ import { createPageUrl } from '@/utils';
 import { Button } from '@/components/UI/button';
 import { Card, CardContent } from '@/components/UI/card';
 import TransactionHistory from '@/components/UI/TransactionHistory';
-import PersonalizedDashboard from '@/components/PersonalizedDashboard';
+import PersonalizedDashboard from '@/components/UI/PersonalizedDashboard';
 
 export default function AccountLookup() {
   const [currentUser, setCurrentUser] = useState(null);
