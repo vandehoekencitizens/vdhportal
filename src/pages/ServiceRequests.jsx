@@ -4,11 +4,11 @@ import { base44 } from '@/api/base44Client';
 import { FileText, Plus, Clock, CheckCircle, XCircle, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/UI/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/UI/dialog';
 import { Input } from '@/components/UI/input';
 import { Label } from '@/components/UI/label';
 import { Textarea } from '@/components/UI/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/UI/select';
 import { Badge } from '@/components/UI/badge';
 import { toast } from 'sonner';
 
