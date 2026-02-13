@@ -1,4 +1,4 @@
-{
+export default {
   "name": "OfficeDeclaration",
   "type": "object",
   "properties": {
