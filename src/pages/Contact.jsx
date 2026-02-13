@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Mail, Send, MessageSquare, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Textarea } from '@/components/UI/textarea';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
