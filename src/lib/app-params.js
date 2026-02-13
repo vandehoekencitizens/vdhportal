@@ -52,3 +52,5 @@ const getAppParams = () => {
 export const appParams = {
 	...getAppParams()
 }
+
+}
