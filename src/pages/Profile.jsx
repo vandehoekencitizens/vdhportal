@@ -5,16 +5,16 @@ import {
   User, Upload, FileText, Shield, Trash2, Plus, AlertCircle,
   Building2, CheckCircle, Clock, XCircle
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/UI/utton';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
+import { Input } from '@/components/UI/input';
+import { Label } from '@/components/UI/label';
+import { Textarea } from '@/components/UI/textarea';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/UI/tabs';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/UI/dialog';
+import { Badge } from '@/components/UI/badge';
 import { toast } from 'sonner';
-import DigitalPassport from '@/components/DigitalPassport';
+import DigitalPassport from '@/components/UI/DigitalPassport';
 
 export default function Profile() {
   const [currentUser, setCurrentUser] = useState(null);
