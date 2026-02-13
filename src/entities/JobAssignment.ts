@@ -1,48 +1,39 @@
 {
-  "name": "Job",
+  "name": "JobAssignment",
   "type": "object",
   "properties": {
-    "title": {
+    "user_email": {
+      "type": "string",
+      "description": "Employee email"
+    },
+    "job_id": {
+      "type": "string",
+      "description": "Reference to Job entity"
+    },
+    "job_title": {
       "type": "string",
       "description": "Job title"
     },
-    "department": {
-      "type": "string",
-      "description": "Government department"
-    },
-    "description": {
-      "type": "string",
-      "description": "Job description"
-    },
-    "salary": {
+    "daily_salary": {
       "type": "number",
       "description": "Daily salary in VHS"
-    },
-    "location": {
-      "type": "string",
-      "description": "Job location"
-    },
-    "type": {
-      "type": "string",
-      "enum": [
-        "Full-time",
-        "Part-time",
-        "Contract"
-      ],
-      "default": "Full-time"
     },
     "status": {
       "type": "string",
       "enum": [
-        "open",
-        "closed"
+        "active",
+        "terminated"
       ],
-      "default": "open"
+      "default": "active"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date"
     }
   },
   "required": [
-    "title",
-    "department",
-    "description"
+    "user_email",
+    "job_title",
+    "daily_salary"
   ]
 }
