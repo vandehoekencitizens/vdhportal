@@ -5,7 +5,7 @@ import {
   User, Upload, FileText, Shield, Trash2, Plus, AlertCircle,
   Building2, CheckCircle, Clock, XCircle
 } from 'lucide-react';
-import { Button } from '@/components/UI/utton';
+import { Button } from '@/components/UI/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
 import { Input } from '@/components/UI/input';
 import { Label } from '@/components/UI/label';
